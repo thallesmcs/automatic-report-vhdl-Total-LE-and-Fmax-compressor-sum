@@ -111,7 +111,7 @@ stage_3: fulladder_a port map (Coutc, A(3), B(3), Coutd, Sum(3));
 stage_4: fulladder_a port map (Coutd, A(4), B(4), Coute, Sum(4));
 stage_5: fulladder_a port map (Coute, A(5), B(5), Coutf, Sum(5));
 stage_6: fulladder_a port map (Coutf, A(6), B(6), Coutg, Sum(6));
-stage_7: fulladder_a port map (Coutgj, A(7), B(7), Couth, Sum(7));
+stage_7: fulladder_a port map (Coutg, A(7), B(7), Couth, Sum(7));
 stage_8: fulladder_a port map (Couth, A(8), B(8), Couti, Sum(8));
 stage_9: fulladder_a port map (Couti, A(9), B(9), Coutj, Sum(9));
 stage_10: fulladder_a port map (Coutj, A(10), B(10), Coutk, Sum(10));
