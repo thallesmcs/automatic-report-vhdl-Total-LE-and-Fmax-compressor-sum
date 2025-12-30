@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 30 11:13:12 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : Compressor72_16bits_Carry_Skip
+Top-level Entity Name : top_level_compressor_7x2_16b
+Family : Cyclone IV E
+Total logic elements : 306
+    Total combinational functions : 194
+    Dedicated logic registers : 131
+Total registers : 131
+Total pins : 133
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
