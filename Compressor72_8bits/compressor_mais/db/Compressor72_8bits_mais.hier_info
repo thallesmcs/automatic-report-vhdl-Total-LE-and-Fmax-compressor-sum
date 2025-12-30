@@ -1,0 +1,901 @@
+|top_level_compressor_7x2_8b
+clk => FF_D8:ff_a.clk
+clk => FF_D8:ff_b.clk
+clk => FF_D8:ff_c.clk
+clk => FF_D8:ff_d.clk
+clk => FF_D8:ff_e.clk
+clk => FF_D8:ff_f.clk
+clk => FF_D8:ff_g.clk
+clk => FF_D8:ff_soma.clk
+clk => FF_D3:ff_c_out.clk
+ap_rst => FF_D8:ff_a.rst_n
+ap_rst => FF_D8:ff_b.rst_n
+ap_rst => FF_D8:ff_c.rst_n
+ap_rst => FF_D8:ff_d.rst_n
+ap_rst => FF_D8:ff_e.rst_n
+ap_rst => FF_D8:ff_f.rst_n
+ap_rst => FF_D8:ff_g.rst_n
+ap_rst => FF_D8:ff_soma.rst_n
+ap_rst => FF_D3:ff_c_out.rst_n
+a[0] => FF_D8:ff_a.d[0]
+a[1] => FF_D8:ff_a.d[1]
+a[2] => FF_D8:ff_a.d[2]
+a[3] => FF_D8:ff_a.d[3]
+a[4] => FF_D8:ff_a.d[4]
+a[5] => FF_D8:ff_a.d[5]
+a[6] => FF_D8:ff_a.d[6]
+a[7] => FF_D8:ff_a.d[7]
+b[0] => FF_D8:ff_b.d[0]
+b[1] => FF_D8:ff_b.d[1]
+b[2] => FF_D8:ff_b.d[2]
+b[3] => FF_D8:ff_b.d[3]
+b[4] => FF_D8:ff_b.d[4]
+b[5] => FF_D8:ff_b.d[5]
+b[6] => FF_D8:ff_b.d[6]
+b[7] => FF_D8:ff_b.d[7]
+c[0] => FF_D8:ff_c.d[0]
+c[1] => FF_D8:ff_c.d[1]
+c[2] => FF_D8:ff_c.d[2]
+c[3] => FF_D8:ff_c.d[3]
+c[4] => FF_D8:ff_c.d[4]
+c[5] => FF_D8:ff_c.d[5]
+c[6] => FF_D8:ff_c.d[6]
+c[7] => FF_D8:ff_c.d[7]
+d[0] => FF_D8:ff_d.d[0]
+d[1] => FF_D8:ff_d.d[1]
+d[2] => FF_D8:ff_d.d[2]
+d[3] => FF_D8:ff_d.d[3]
+d[4] => FF_D8:ff_d.d[4]
+d[5] => FF_D8:ff_d.d[5]
+d[6] => FF_D8:ff_d.d[6]
+d[7] => FF_D8:ff_d.d[7]
+e[0] => FF_D8:ff_e.d[0]
+e[1] => FF_D8:ff_e.d[1]
+e[2] => FF_D8:ff_e.d[2]
+e[3] => FF_D8:ff_e.d[3]
+e[4] => FF_D8:ff_e.d[4]
+e[5] => FF_D8:ff_e.d[5]
+e[6] => FF_D8:ff_e.d[6]
+e[7] => FF_D8:ff_e.d[7]
+f[0] => FF_D8:ff_f.d[0]
+f[1] => FF_D8:ff_f.d[1]
+f[2] => FF_D8:ff_f.d[2]
+f[3] => FF_D8:ff_f.d[3]
+f[4] => FF_D8:ff_f.d[4]
+f[5] => FF_D8:ff_f.d[5]
+f[6] => FF_D8:ff_f.d[6]
+f[7] => FF_D8:ff_f.d[7]
+g[0] => FF_D8:ff_g.d[0]
+g[1] => FF_D8:ff_g.d[1]
+g[2] => FF_D8:ff_g.d[2]
+g[3] => FF_D8:ff_g.d[3]
+g[4] => FF_D8:ff_g.d[4]
+g[5] => FF_D8:ff_g.d[5]
+g[6] => FF_D8:ff_g.d[6]
+g[7] => FF_D8:ff_g.d[7]
+soma[0] <= FF_D8:ff_soma.q[0]
+soma[1] <= FF_D8:ff_soma.q[1]
+soma[2] <= FF_D8:ff_soma.q[2]
+soma[3] <= FF_D8:ff_soma.q[3]
+soma[4] <= FF_D8:ff_soma.q[4]
+soma[5] <= FF_D8:ff_soma.q[5]
+soma[6] <= FF_D8:ff_soma.q[6]
+soma[7] <= FF_D8:ff_soma.q[7]
+c_out[0] <= FF_D3:ff_c_out.q[0]
+c_out[1] <= FF_D3:ff_c_out.q[1]
+c_out[2] <= FF_D3:ff_c_out.q[2]
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_a
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_b
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_c
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_d
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_e
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_f
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_g
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor
+a[0] => compressor_7entradas1a:stage_0.A
+a[1] => compressor_7entradas1a:stage_1.A
+a[2] => compressor_7entradas1a:stage_2.A
+a[3] => compressor_7entradas1a:stage_3.A
+a[4] => compressor_7entradas1a:stage_4.A
+a[5] => compressor_7entradas1a:stage_5.A
+a[6] => compressor_7entradas1a:stage_6.A
+a[7] => compressor_7entradas1a:stage_7.A
+b[0] => compressor_7entradas1a:stage_0.B
+b[1] => compressor_7entradas1a:stage_1.B
+b[2] => compressor_7entradas1a:stage_2.B
+b[3] => compressor_7entradas1a:stage_3.B
+b[4] => compressor_7entradas1a:stage_4.B
+b[5] => compressor_7entradas1a:stage_5.B
+b[6] => compressor_7entradas1a:stage_6.B
+b[7] => compressor_7entradas1a:stage_7.B
+c[0] => compressor_7entradas1a:stage_0.C
+c[1] => compressor_7entradas1a:stage_1.C
+c[2] => compressor_7entradas1a:stage_2.C
+c[3] => compressor_7entradas1a:stage_3.C
+c[4] => compressor_7entradas1a:stage_4.C
+c[5] => compressor_7entradas1a:stage_5.C
+c[6] => compressor_7entradas1a:stage_6.C
+c[7] => compressor_7entradas1a:stage_7.C
+d[0] => compressor_7entradas1a:stage_0.D
+d[1] => compressor_7entradas1a:stage_1.D
+d[2] => compressor_7entradas1a:stage_2.D
+d[3] => compressor_7entradas1a:stage_3.D
+d[4] => compressor_7entradas1a:stage_4.D
+d[5] => compressor_7entradas1a:stage_5.D
+d[6] => compressor_7entradas1a:stage_6.D
+d[7] => compressor_7entradas1a:stage_7.D
+e[0] => compressor_7entradas1a:stage_0.E
+e[1] => compressor_7entradas1a:stage_1.E
+e[2] => compressor_7entradas1a:stage_2.E
+e[3] => compressor_7entradas1a:stage_3.E
+e[4] => compressor_7entradas1a:stage_4.E
+e[5] => compressor_7entradas1a:stage_5.E
+e[6] => compressor_7entradas1a:stage_6.E
+e[7] => compressor_7entradas1a:stage_7.E
+f[0] => compressor_7entradas1a:stage_0.F
+f[1] => compressor_7entradas1a:stage_1.F
+f[2] => compressor_7entradas1a:stage_2.F
+f[3] => compressor_7entradas1a:stage_3.F
+f[4] => compressor_7entradas1a:stage_4.F
+f[5] => compressor_7entradas1a:stage_5.F
+f[6] => compressor_7entradas1a:stage_6.F
+f[7] => compressor_7entradas1a:stage_7.F
+g[0] => compressor_7entradas1a:stage_0.G
+g[1] => compressor_7entradas1a:stage_1.G
+g[2] => compressor_7entradas1a:stage_2.G
+g[3] => compressor_7entradas1a:stage_3.G
+g[4] => compressor_7entradas1a:stage_4.G
+g[5] => compressor_7entradas1a:stage_5.G
+g[6] => compressor_7entradas1a:stage_6.G
+g[7] => compressor_7entradas1a:stage_7.G
+sum[0] <= compressor_7entradas1a:stage_0.sum
+sum[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+sum[8] <= compressor_4entradas1:stage_15.Sum
+sum[9] <= full_adder_a:stage_16.S
+sum[10] <= full_adder_a:stage_16.COUT
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_0
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_0|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_0|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_0|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_1
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_1|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_1|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_1|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_2
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_2|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_2|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_2|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_3
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_3|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_3|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_3|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_4
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_4|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_4|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_4|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_5
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_5|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_5|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_5|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_6
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_6|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_6|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_6|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_7
+a => s4.IN1
+a => cgen:cgen3.in1
+b => s1.IN0
+b => cgen:cgen1.in1
+c => s1.IN1
+c => cgen:cgen1.in2
+d => s1.IN1
+d => cgen:cgen1.in3
+e => s2.IN0
+e => cgen:cgen2.in1
+f => s2.IN1
+f => cgen:cgen2.in2
+g => s2.IN1
+g => cgen:cgen2.in3
+cin1 => sum.IN1
+cin1 => carry.DATAA
+cin2 => s5.IN1
+cout1 <= cout1.DB_MAX_OUTPUT_PORT_TYPE
+cout2 <= cout2.DB_MAX_OUTPUT_PORT_TYPE
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_7|cgen:cgen1
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_7|cgen:cgen2
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_7entradas1a:stage_7|cgen:cgen3
+in1 => CGEN.IN1
+in2 => CGEN.IN0
+in2 => CGEN.IN0
+in3 => CGEN.IN1
+in3 => CGEN.IN1
+CGEN <= CGEN.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_4entradas1:stage_15
+A => out_xor1.IN0
+A => Mux21ab:s0.a
+B => out_xor1.IN1
+C => out_xor2.IN0
+C => Mux21ab:s0.b
+D => out_xor2.IN1
+D => Mux21ab:s1.a
+Cin => out_xor4.IN1
+Cin => Mux21ab:s1.b
+Cout <= Mux21ab:s0.y
+Carry <= Mux21ab:s1.y
+Sum <= out_xor4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_4entradas1:stage_15|Mux21ab:s0
+a => y.DATAB
+b => y.DATAA
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|compressor_4entradas1:stage_15|Mux21ab:s1
+a => y.DATAB
+b => y.DATAA
+sel => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|compressor_7x2_8b_mais:u_compressor|full_adder_a:stage_16
+CIN => S.IN1
+CIN => fio3.IN1
+A => fio1.IN0
+A => fio2.IN0
+B => fio1.IN1
+B => fio2.IN1
+COUT <= COUT.DB_MAX_OUTPUT_PORT_TYPE
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D8:ff_soma
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+rst_n => q[3]~reg0.ACLR
+rst_n => q[4]~reg0.ACLR
+rst_n => q[5]~reg0.ACLR
+rst_n => q[6]~reg0.ACLR
+rst_n => q[7]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+d[3] => q[3]~reg0.DATAIN
+d[4] => q[4]~reg0.DATAIN
+d[5] => q[5]~reg0.DATAIN
+d[6] => q[6]~reg0.DATAIN
+d[7] => q[7]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top_level_compressor_7x2_8b|FF_D3:ff_c_out
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+rst_n => q[2]~reg0.ACLR
+d[0] => q[0]~reg0.DATAIN
+d[1] => q[1]~reg0.DATAIN
+d[2] => q[2]~reg0.DATAIN
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -104,7 +104,7 @@ def main():
 
     # --- CONFIGURAÇÃO DE LARGURAS ---
     # Definindo larguras fixas para garantir que Cabeçalho e Linhas batam exatamente
-    W_DESIGN = 40
+    W_DESIGN = 45
     W_LES = 8
     W_FMAX = 12
     W_PASTA = 60  # Aumentei um pouco para caber caminhos melhores
