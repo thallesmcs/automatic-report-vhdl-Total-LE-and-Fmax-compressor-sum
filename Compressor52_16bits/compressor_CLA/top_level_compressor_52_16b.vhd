@@ -11,7 +11,7 @@ entity top_level_compressor_52_16b is
         d     : in  std_logic_vector(15 downto 0);
         e     : in  std_logic_vector(15 downto 0);
         soma   : out std_logic_vector(15 downto 0);
-        c_out  : out std_logic_vector(1 downto 0)
+        c_out  : out std_logic_vector(2 downto 0)
     );
 end entity;
 
@@ -24,7 +24,7 @@ architecture Behavioral of top_level_compressor_52_16b is
             C : in  std_logic_vector(15 downto 0);
             D : in  std_logic_vector(15 downto 0);
             E : in  std_logic_vector(15 downto 0);
-            sum : out std_logic_vector(17 downto 0)
+            sum : out std_logic_vector(18 downto 0)
         );
     end component;
 
@@ -37,12 +37,12 @@ architecture Behavioral of top_level_compressor_52_16b is
         );
     end component;
 
-    component FF_D2 is
+    component FF_D3 is
         port (
             clk   : in  std_logic;
             rst_n : in  std_logic;
-            d     : in  std_logic_vector(1 downto 0);
-            q     : out std_logic_vector(1 downto 0)
+            d     : in  std_logic_vector(2 downto 0);
+            q     : out std_logic_vector(2 downto 0)
         );
     end component;
 
@@ -52,11 +52,11 @@ architecture Behavioral of top_level_compressor_52_16b is
     signal c_reg     : std_logic_vector(15 downto 0);
     signal d_reg     : std_logic_vector(15 downto 0);
     signal e_reg     : std_logic_vector(15 downto 0);
-    signal s_raw     : std_logic_vector(17 downto 0);
+    signal s_raw     : std_logic_vector(18 downto 0);
     signal soma_raw  : std_logic_vector(15 downto 0);
     signal soma_reg  : std_logic_vector(15 downto 0);
-    signal c_out_raw : std_logic_vector(1 downto 0);
-    signal c_out_reg : std_logic_vector(1 downto 0);
+    signal c_out_raw : std_logic_vector(2 downto 0);
+    signal c_out_reg : std_logic_vector(2 downto 0);
 
 begin
 
@@ -87,12 +87,12 @@ begin
         );
 
     soma_raw  <= s_raw(15 downto 0);
-    c_out_raw <= s_raw(17 downto 16);
+    c_out_raw <= s_raw(18 downto 16);
 
     ff_soma : FF_D16
         port map (clk => clk, rst_n => rst_n, d => soma_raw, q => soma_reg);
 
-    ff_c_out : FF_D2
+    ff_c_out : FF_D3
         port map (clk => clk, rst_n => rst_n, d => c_out_raw, q => c_out_reg);
 
     soma  <= soma_reg;

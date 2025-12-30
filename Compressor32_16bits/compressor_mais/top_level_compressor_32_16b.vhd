@@ -15,7 +15,7 @@ end entity;
 
 architecture Behavioral of top_level_compressor_32_16b is
 
-    component compressor32_16b_mais is
+    component compressor32_16b_v1 is
         port (
             A : in  std_logic_vector(15 downto 0);
             B : in  std_logic_vector(15 downto 0);
@@ -65,7 +65,7 @@ begin
     ff_c : FF_D16
         port map (clk => clk, rst_n => rst_n, d => c, q => c_reg);
 
-    u_compressor : compressor32_16b_mais
+    u_compressor : compressor32_16b_v1
         port map (
             A => a_reg,
             B => b_reg,

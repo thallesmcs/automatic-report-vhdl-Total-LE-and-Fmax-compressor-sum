@@ -1,5 +1,5 @@
 $ErrorActionPreference = 'Stop'
-$root = 'f:\github_projects\circuit-timing-analysis-sum-3-2-4-2-5-2-7-2-8-2-CLA-and_others'
+$root = 'f:\github_projects\New JICS'
 
 function New-FFCode {
     param(
@@ -139,14 +139,14 @@ $families = @(
     @{folder='Compressor42_16bits'; width=16; cOut=2; outPort='SOMA'; top='top_level_compressor_42_16b';  regex='^compressor_42_16b_(.+)$';   inputs=@('a','b','c','d')},
 
     # 5:2, 7:2 e 8:2 retornam porta sum (minúsculo) e têm 3 bits de carry-out
-    @{folder='Compressor52_8bits';  width=8;  cOut=2; outPort='sum';  top='top_level_compressor_52_8b';   regex='^Compressor_52_8b_(.+)$';    inputs=@('a','b','c','d','e')},
-    @{folder='Compressor52_16bits'; width=16; cOut=2; outPort='sum';  top='top_level_compressor_52_16b';  regex='^Compressor_52_16b_(.+)$';   inputs=@('a','b','c','d','e')},
+    @{folder='Compressor52_8bits';  width=8;  cOut=3; outPort='sum';  top='top_level_compressor_52_8b';   regex='^Compressor_52_8b_(.+)$';    inputs=@('a','b','c','d','e')},
+    @{folder='Compressor52_16bits'; width=16; cOut=3; outPort='sum';  top='top_level_compressor_52_16b';  regex='^Compressor_52_16b_(.+)$';   inputs=@('a','b','c','d','e')},
 
-    @{folder='Compressor72_8bits';  width=8;  cOut=2; outPort='sum';  top='top_level_compressor_7x2_8b';  regex='^compressor_7x2_8b_(.+)$';   inputs=@('a','b','c','d','e','f','g')},
-    @{folder='Compressor72_16bits'; width=16; cOut=2; outPort='sum';  top='top_level_compressor_7x2_16b'; regex='^compressor_7x2_16b_(.+)$'; inputs=@('a','b','c','d','e','f','g')},
+    @{folder='Compressor72_8bits';  width=8;  cOut=3; outPort='sum';  top='top_level_compressor_7x2_8b';  regex='^compressor_7x2_8b_(.+)$';   inputs=@('a','b','c','d','e','f','g')},
+    @{folder='Compressor72_16bits'; width=16; cOut=3; outPort='sum';  top='top_level_compressor_7x2_16b'; regex='^compressor_7x2_16b_(.+)$'; inputs=@('a','b','c','d','e','f','g')},
 
-    @{folder='Compressor82_8bits';  width=8;  cOut=2; outPort='sum';  top='top_level_compressor_8x2_8b';  regex='^compressor_8x2_8b_(.+)$';   inputs=@('a','b','c','d','e','f','g','h')},
-    @{folder='Compressor82_16bits'; width=16; cOut=2; outPort='sum';  top='top_level_compressor_8x2_16b'; regex='^compressor_8x2_16b_(.+)$'; inputs=@('a','b','c','d','e','f','g','h')}
+    @{folder='Compressor82_8bits';  width=8;  cOut=3; outPort='sum';  top='top_level_compressor_8x2_8b';  regex='^compressor_8x2_8b_(.+)$';   inputs=@('a','b','c','d','e','f','g','h')},
+    @{folder='Compressor82_16bits'; width=16; cOut=3; outPort='sum';  top='top_level_compressor_8x2_16b'; regex='^compressor_8x2_16b_(.+)$'; inputs=@('a','b','c','d','e','f','g','h')}
 )
 
 foreach ($fam in $families) {

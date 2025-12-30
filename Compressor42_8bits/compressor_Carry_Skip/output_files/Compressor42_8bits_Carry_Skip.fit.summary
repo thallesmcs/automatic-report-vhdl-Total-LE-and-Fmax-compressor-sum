@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue Dec 30 00:21:09 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : Compressor42_8bits_Carry_Skip
+Top-level Entity Name : top_level_compressor_42_8b
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 67 / 22,320 ( < 1 % )
+    Total combinational functions : 47 / 22,320 ( < 1 % )
+    Dedicated logic registers : 42 / 22,320 ( < 1 % )
+Total registers : 42
+Total pins : 44 / 154 ( 29 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

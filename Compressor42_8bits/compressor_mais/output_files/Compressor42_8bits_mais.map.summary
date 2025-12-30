@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Dec 30 07:36:54 2025
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : Compressor42_8bits_mais
+Top-level Entity Name : top_level_compressor_42_8b
+Family : Cyclone IV E
+Total logic elements : 72
+    Total combinational functions : 40
+    Dedicated logic registers : 42
+Total registers : 42
+Total pins : 44
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
