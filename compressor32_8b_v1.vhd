@@ -117,9 +117,3 @@ S(0) <= sum(0);
 S(9 downto 1) <= ('0' & carry) + ( "00" & sum(7 downto 1));
 
 END comportamento;
-
-					
-
-EP4CE22F17C6
-
-62       | 288.68

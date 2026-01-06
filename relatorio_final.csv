@@ -11,6 +11,7 @@ Compressor32_16bits_Sklansky,118,261.64,Compressor32_16bits\compressor_Sklansky\
 compressor32_8bits_brent_kung,48,346.86,Compressor32_8bits\compressor_Brent_Kung\output_files,OK
 Compressor32_8bits_Carry_Select,41,373.55,Compressor32_8bits\compressor_Carry_Select\output_files,OK
 Compressor32_8bits_arry_Skip,42,290.78,Compressor32_8bits\compressor_Carry_Skip\output_files,OK
+Compressor32_8bits_Carry_Skip_modificado,48,256.34,Compressor32_8bits\compressor_Carry_Skip_modificado\output_files,OK
 Compressor32_8bits_CLA,42,277.7,Compressor32_8bits\compressor_CLA\output_files,OK
 Compressor32_8bits_Kogge_Stone,48,346.26,Compressor32_8bits\compressor_Kogge_Stone\output_files,OK
 Compressor32_8bits_Ladner_Fischer,48,391.39,Compressor32_8bits\compressor_Ladner_Fischer\output_files,OK
