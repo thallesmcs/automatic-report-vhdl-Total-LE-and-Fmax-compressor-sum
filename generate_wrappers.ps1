@@ -134,6 +134,10 @@ end Behavioral;
 }
 
 $families = @(
+
+    # 3:2 compressores retornam porta SOMA e 1 bit de carry-out
+    @{folder='Compressor32_8bits';  width=8;  cOut=2; outPort='S'; top='top_level_compressor_32_8b';   regex='^compressor32_8b_(.+)$';    inputs=@('a','b','c')},
+
     # 4:2 compressores retornam porta SOMA e 2 bits de carry-out
     @{folder='Compressor42_8bits';  width=8;  cOut=2; outPort='SOMA'; top='top_level_compressor_42_8b';   regex='^compressor_42_8b_(.+)$';    inputs=@('a','b','c','d')},
     @{folder='Compressor42_16bits'; width=16; cOut=2; outPort='SOMA'; top='top_level_compressor_42_16b';  regex='^compressor_42_16b_(.+)$';   inputs=@('a','b','c','d')},

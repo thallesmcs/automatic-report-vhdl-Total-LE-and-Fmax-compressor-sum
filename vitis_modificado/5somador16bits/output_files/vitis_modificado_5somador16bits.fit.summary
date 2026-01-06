@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Jan  5 21:20:23 2026
+Quartus Prime Version : 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
+Revision Name : vitis_modificado_5somador16bits
+Top-level Entity Name : top_level_somador16bits
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 117 / 22,320 ( < 1 % )
+    Total combinational functions : 71 / 22,320 ( < 1 % )
+    Dedicated logic registers : 99 / 22,320 ( < 1 % )
+Total registers : 99
+Total pins : 101 / 154 ( 66 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

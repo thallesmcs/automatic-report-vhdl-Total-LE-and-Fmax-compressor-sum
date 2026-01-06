@@ -5,9 +5,9 @@ entity top_level_compressor_32_8b is
     port (
         clk    : in  std_logic;
         ap_rst : in  std_logic;
-        a      : in  std_logic_vector(7 downto 0);
-        b      : in  std_logic_vector(7 downto 0);
-        c      : in  std_logic_vector(7 downto 0);
+        a     : in  std_logic_vector(7 downto 0);
+        b     : in  std_logic_vector(7 downto 0);
+        c     : in  std_logic_vector(7 downto 0);
         soma   : out std_logic_vector(7 downto 0);
         c_out  : out std_logic_vector(1 downto 0)
     );
@@ -64,7 +64,6 @@ begin
 
     ff_c : FF_D8
         port map (clk => clk, rst_n => rst_n, d => c, q => c_reg);
-
     u_compressor : compressor32_8b_CLA
         port map (
             A => a_reg,

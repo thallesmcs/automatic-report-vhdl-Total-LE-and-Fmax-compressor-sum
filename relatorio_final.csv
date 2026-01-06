@@ -14,6 +14,7 @@ Compressor32_8bits_arry_Skip,42,290.78,Compressor32_8bits\compressor_Carry_Skip\
 Compressor32_8bits_CLA,42,277.7,Compressor32_8bits\compressor_CLA\output_files,OK
 Compressor32_8bits_Kogge_Stone,48,346.26,Compressor32_8bits\compressor_Kogge_Stone\output_files,OK
 Compressor32_8bits_Ladner_Fischer,48,391.39,Compressor32_8bits\compressor_Ladner_Fischer\output_files,OK
+Compressor32_8bits_mais,43,432.71,Compressor32_8bits\compressor_mais\output_files,OK
 Compressor32_8bits_RCA,42,277.7,Compressor32_8bits\compressor_RCA\output_files,OK
 Compressor32_8bits_Sklansky,53,395.57,Compressor32_8bits\compressor_Sklansky\output_files,OK
 Compressor42_16bits_Brent_Kung,122,200.36,Compressor42_16bits\compressor_Brent_Kung\output_files,OK
@@ -88,3 +89,13 @@ Compressor82_8bits_Ladner_Fischer,139,192.34,Compressor82_8bits\compressor_Ladne
 Compressor82_8bits_mais,137,212.77,Compressor82_8bits\compressor_mais\output_files,OK
 Compressor82_8bits_RCA,120,186.6,Compressor82_8bits\compressor_RCA\output_files,OK
 Compressor82_8bits_Sklansky,134,190.33,Compressor82_8bits\compressor_Sklansky\output_files,OK
+vitis_modificado_3somador16bits,66,292.65,vitis_modificado\3somador16bits\output_files,OK
+vitis_modificado_3somador8bits,34,337.27,vitis_modificado\3somador8bits\output_files,OK
+vitis_modificado_4somador16bits,82,273.9,vitis_modificado\4somador16bits\output_files,OK
+vitis_modificado_4somador8bits,42,334.9,vitis_modificado\4somador8bits\output_files,OK
+vitis_modificado_5somador16bits,117,200.52,vitis_modificado\5somador16bits\output_files,OK
+vitis_modificado_5somador8bits,61,224.47,vitis_modificado\5somador8bits\output_files,OK
+vitis_modificado_7somador16bits,151,187.76,vitis_modificado\7somador16bits\output_files,OK
+vitis_modificado_7somador8bits,79,227.84,vitis_modificado\7somador8bits\output_files,OK
+vitis_modificado_8somador16bits,183,197.82,vitis_modificado\8somador16bits\output_files,OK
+vitis_modificado_8somador8bits,95,226.76,vitis_modificado\8somador8bits\output_files,OK
