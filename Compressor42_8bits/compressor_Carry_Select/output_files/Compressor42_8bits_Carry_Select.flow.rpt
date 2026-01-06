@@ -1,5 +1,5 @@
 Flow report for Compressor42_8bits_Carry_Select
-Tue Dec 30 00:12:35 2025
+Mon Jan  5 21:38:04 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,22 +41,22 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Dec 30 00:12:33 2025           ;
+; Flow Status                        ; Successful - Mon Jan  5 21:38:02 2026           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; Compressor42_8bits_Carry_Select                 ;
 ; Top-level Entity Name              ; top_level_compressor_42_8b                      ;
 ; Family                             ; Cyclone IV E                                    ;
-; Total logic elements               ; 62 / 6,272 ( < 1 % )                            ;
-;     Total combinational functions  ; 48 / 6,272 ( < 1 % )                            ;
-;     Dedicated logic registers      ; 42 / 6,272 ( < 1 % )                            ;
-; Total registers                    ; 42                                              ;
-; Total pins                         ; 44 / 92 ( 48 % )                                ;
-; Total virtual pins                 ; 0                                               ;
-; Total memory bits                  ; 0 / 276,480 ( 0 % )                             ;
-; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                                  ;
-; Total PLLs                         ; 0 / 2 ( 0 % )                                   ;
-; Device                             ; EP4CE6E22C6                                     ;
+; Device                             ; EP4CE22F17C6                                    ;
 ; Timing Models                      ; Final                                           ;
+; Total logic elements               ; 61 / 22,320 ( < 1 % )                           ;
+;     Total combinational functions  ; 48 / 22,320 ( < 1 % )                           ;
+;     Dedicated logic registers      ; 42 / 22,320 ( < 1 % )                           ;
+; Total registers                    ; 42                                              ;
+; Total pins                         ; 44 / 154 ( 29 % )                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0 / 608,256 ( 0 % )                             ;
+; Embedded Multiplier 9-bit elements ; 0 / 132 ( 0 % )                                 ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                   ;
 +------------------------------------+-------------------------------------------------+
 
 
@@ -65,7 +65,7 @@ on the Quartus Prime software download page.
 +-------------------+---------------------------------+
 ; Option            ; Setting                         ;
 +-------------------+---------------------------------+
-; Start date & time ; 12/30/2025 00:12:22             ;
+; Start date & time ; 01/05/2026 21:37:49             ;
 ; Main task         ; Compilation                     ;
 ; Revision Name     ; Compressor42_8bits_Carry_Select ;
 +-------------------+---------------------------------+
@@ -76,7 +76,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+---------------------------------+----------------------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value                   ; Entity Name                ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------------------------+----------------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 91754728103.176706434206356            ; --                              ; --                         ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 110866533073235.176765986908880        ; --                              ; --                         ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                              ; --                         ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                              ; --                         ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                              ; --                         ; eda_board_design_signal_integrity ;
@@ -84,6 +84,9 @@ on the Quartus Prime software download page.
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --                              ; --                         ; eda_simulation                    ;
 ; EDA_SIMULATION_TOOL                 ; Questa Intel FPGA (Verilog)            ; <None>                          ; --                         ; --                                ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --                              ; --                         ; eda_simulation                    ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --                              ; --                         ; --                                ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --                              ; --                         ; --                                ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --                              ; --                         ; --                                ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --                              ; top_level_compressor_42_8b ; Top                               ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --                              ; top_level_compressor_42_8b ; Top                               ;
 ; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --                              ; top_level_compressor_42_8b ; Top                               ;
@@ -97,10 +100,10 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4862 MB             ; 00:00:15                           ;
-; Fitter               ; 00:00:03     ; 1.0                     ; 5823 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4826 MB             ; 00:00:01                           ;
-; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:21                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4858 MB             ; 00:00:18                           ;
+; Fitter               ; 00:00:05     ; 1.0                     ; 5843 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4830 MB             ; 00:00:01                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -121,3 +121,5 @@ END comportamento;
 					
 
 EP4CE22F17C6
+
+62       | 288.68

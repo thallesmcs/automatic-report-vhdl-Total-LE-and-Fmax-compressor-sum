@@ -27,7 +27,7 @@ Compressor42_16bits_mais,108,289.35,Compressor42_16bits\compressor_mais\output_f
 Compressor42_16bits_RCA,105,142.05,Compressor42_16bits\compressor_RCA\output_files,OK
 Compressor42_16bits_Sklansky,183,214.96,Compressor42_16bits\compressor_Sklansky\output_files,OK
 Compressor42_8bits_Brent_Kung,62,304.97,Compressor42_8bits\compressor_Brent_Kung\output_files,OK
-Compressor42_8bits_Carry_Select,62,288.68,Compressor42_8bits\compressor_Carry_Select\output_files,OK
+Compressor42_8bits_Carry_Select,61,282.33,Compressor42_8bits\compressor_Carry_Select\output_files,OK
 Compressor42_8bits_Carry_Skip,67,257.8,Compressor42_8bits\compressor_Carry_Skip\output_files,OK
 Compressor42_8bits_CLA,55,261.57,Compressor42_8bits\compressor_CLA\output_files,OK
 Compressor42_8bits_Kogge_Stone,70,294.99,Compressor42_8bits\compressor_Kogge_Stone\output_files,OK

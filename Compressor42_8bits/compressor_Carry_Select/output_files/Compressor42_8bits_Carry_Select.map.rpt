@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Compressor42_8bits_Carry_Select
-Tue Dec 30 00:12:29 2025
+Mon Jan  5 21:37:56 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -47,7 +47,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Dec 30 00:12:29 2025           ;
+; Analysis & Synthesis Status        ; Successful - Mon Jan  5 21:37:56 2026           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; Compressor42_8bits_Carry_Select                 ;
 ; Top-level Entity Name              ; top_level_compressor_42_8b                      ;
@@ -69,6 +69,7 @@ on the Quartus Prime software download page.
 +------------------------------------------------------------------+----------------------------+---------------------------------+
 ; Option                                                           ; Setting                    ; Default Value                   ;
 +------------------------------------------------------------------+----------------------------+---------------------------------+
+; Device                                                           ; EP4CE22F17C6               ;                                 ;
 ; Top-level entity name                                            ; top_level_compressor_42_8b ; Compressor42_8bits_Carry_Select ;
 ; Family name                                                      ; Cyclone IV E               ; Cyclone V                       ;
 ; Use smart compilation                                            ; Off                        ; Off                             ;
@@ -338,7 +339,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
-    Info: Processing started: Tue Dec 30 00:12:22 2025
+    Info: Processing started: Mon Jan  5 21:37:49 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Compressor42_8bits_Carry_Select -c Compressor42_8bits_Carry_Select
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -380,9 +381,9 @@ Info (21057): Implemented 124 device resources after synthesis - the final resou
     Info (21059): Implemented 10 output pins
     Info (21061): Implemented 80 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4862 megabytes
-    Info: Processing ended: Tue Dec 30 00:12:29 2025
+    Info: Peak virtual memory: 4858 megabytes
+    Info: Processing ended: Mon Jan  5 21:37:56 2026
     Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Total CPU time (on all processors): 00:00:18
 
 
