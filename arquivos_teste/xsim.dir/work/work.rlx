@@ -1,0 +1,11 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+F:/github_projects/New JICS/Compressor32_8bits/compressor_Carry_Skip_modificado/compressor32_8b_Carry_Skip_modificado.vhd,1767835892,vhdl2008,,,,carry_skip_8bit;compressor32;compressor32_8b_carry_skip;full_adder;mux_1bit;my_components;my_components1;my_components2;ripple4,,,,,,,,
+F:/github_projects/New JICS/Compressor72_8bits/compressor_Carry_Skip/compressor_7x2_8b_Carry_Skip.vhd,1767055593,vhdl,F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd,,,compressor_7x2_8b_carry_skip;my_componentsa1;my_componentsb1,,,,,,,,
+F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd,1767832361,vhdl,,,,tb_compressor_7x2_8b,,,,,,,,
+F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd,1767835749,vhdl,,,,tb_gold_generic,,,,,,,,
+F:/github_projects/New JICS/gold_tb/tb_somadores.vhd,1767833052,vhdl,,,,tb_somadores,,,,,,,,
+F:/github_projects/New JICS/sum_comum/somador_comum.vhd,1767832674,vhdl,F:/github_projects/New JICS/gold_tb/tb_somadores.vhd,,,somador_comum,,,,,,,,
+F:/github_projects/New JICS/sum_comum/sum_comum.vhd,1767831453,vhdl,F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd,,,sum_comum,,,,,,,,

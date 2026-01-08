@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan  7 21:26:36 2026
+# Process ID         : 18416
+# Current directory  : F:/github_projects/New JICS
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/tb_sim/xsim_script.tcl}
+# Log file           : F:/github_projects/New JICS/xsim.log
+# Journal file       : F:/github_projects/New JICS\xsim.jou
+# Running On         : DESKTOP-8L9PMU5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 34299 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39399 MB
+# Available Virtual  : 20410 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_sim/xsim_script.tcl
+# xsim {tb_sim} -autoloadwcfg -tclbatch {run 2 us; quit}
+Time resolution is 1 ps
+source run
+couldn't read file "run": no such file or directory
+source 2
+couldn't read file "2": no such file or directory
+source {us;}
+couldn't read file "us;": no such file or directory
+source quit
+couldn't read file "quit": no such file or directory
+xsim% Set-Content run.tcl "run 2 us`nquit"
+invalid command name "Set-Content"
+xsim% quit
+INFO: [Common 17-206] Exiting xsim at Wed Jan  7 21:27:04 2026...

@@ -1,5 +1,5 @@
 Flow report for Compressor32_8bits_Carry_Skip_modificado
-Tue Jan  6 14:14:15 2026
+Tue Jan  6 15:30:23 2026
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -41,15 +41,15 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Tue Jan  6 14:14:13 2026           ;
+; Flow Status                        ; Successful - Tue Jan  6 15:30:20 2026           ;
 ; Quartus Prime Version              ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                      ; Compressor32_8bits_Carry_Skip_modificado        ;
 ; Top-level Entity Name              ; top_level_compressor_32_8b                      ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE22F17C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 48 / 22,320 ( < 1 % )                           ;
-;     Total combinational functions  ; 39 / 22,320 ( < 1 % )                           ;
+; Total logic elements               ; 49 / 22,320 ( < 1 % )                           ;
+;     Total combinational functions  ; 40 / 22,320 ( < 1 % )                           ;
 ;     Dedicated logic registers      ; 34 / 22,320 ( < 1 % )                           ;
 ; Total registers                    ; 34                                              ;
 ; Total pins                         ; 36 / 154 ( 23 % )                               ;
@@ -65,7 +65,7 @@ on the Quartus Prime software download page.
 +-------------------+------------------------------------------+
 ; Option            ; Setting                                  ;
 +-------------------+------------------------------------------+
-; Start date & time ; 01/06/2026 14:13:59                      ;
+; Start date & time ; 01/06/2026 15:30:05                      ;
 ; Main task         ; Compilation                              ;
 ; Revision Name     ; Compressor32_8bits_Carry_Skip_modificado ;
 +-------------------+------------------------------------------+
@@ -76,7 +76,7 @@ on the Quartus Prime software download page.
 +-------------------------------------+----------------------------------------+------------------------------------------+----------------------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value                            ; Entity Name                ; Section Id                        ;
 +-------------------------------------+----------------------------------------+------------------------------------------+----------------------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 110866533073235.176771963907116        ; --                                       ; --                         ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 110866533073235.176772420501792        ; --                                       ; --                         ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                                       ; --                         ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                                       ; --                         ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                                       ; --                         ; eda_board_design_signal_integrity ;
@@ -100,10 +100,10 @@ on the Quartus Prime software download page.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4865 MB             ; 00:00:15                           ;
-; Fitter               ; 00:00:07     ; 1.0                     ; 5822 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4840 MB             ; 00:00:01                           ;
-; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:23                           ;
+; Analysis & Synthesis ; 00:00:06     ; 1.0                     ; 4854 MB             ; 00:00:15                           ;
+; Fitter               ; 00:00:05     ; 1.0                     ; 5830 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 4830 MB             ; 00:00:01                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:22                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -122,7 +122,7 @@ on the Quartus Prime software download page.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Compressor32_8bits_Carry_Skip_modificado -c Compressor32_8bits_Carry_Skip_modificado
-quartus_fit --read_settings_files=off --write_settings_files=off Compressor32_8bits_Carry_Skip_modificado -c Compressor32_8bits_Carry_Skip_modificado
+quartus_fit --read_settings_files=on --write_settings_files=off Compressor32_8bits_Carry_Skip_modificado -c Compressor32_8bits_Carry_Skip_modificado
 quartus_sta Compressor32_8bits_Carry_Skip_modificado -c Compressor32_8bits_Carry_Skip_modificado
 
 

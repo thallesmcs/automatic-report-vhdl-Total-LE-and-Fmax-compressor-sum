@@ -207,13 +207,13 @@ LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE work.my_components2.all;
 
-ENTITY compressor32_8b_Carry_Skip_modificado IS
+ENTITY compressor32_8b_Carry_Skip IS
 PORT (A, B, C: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 	  S: OUT STD_LOGIC_VECTOR(9 DOWNTO 0)
 	   );
-END compressor32_8b_Carry_Skip_modificado;
+END compressor32_8b_Carry_Skip;
 
-ARCHITECTURE comportamento OF compressor32_8b_Carry_Skip_modificado IS
+ARCHITECTURE comportamento OF compressor32_8b_Carry_Skip IS
 
 SIGNAL carry: STD_LOGIC_VECTOR(7 DOWNTO 0);
 SIGNAL sum: STD_LOGIC_VECTOR(7 DOWNTO 1);

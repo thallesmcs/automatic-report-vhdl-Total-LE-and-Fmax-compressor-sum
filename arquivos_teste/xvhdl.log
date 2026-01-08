@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'tb_gold_generic'
+ERROR: [VRFC 10-2987] 'compressor32_8b_carry_skip_modificado' is not compiled in library 'work' [F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd:56]
+ERROR: [VRFC 10-9458] unit 'tb' is ignored due to previous errors [F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd:13]
+INFO: [VRFC 10-8704] VHDL file 'F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd' is ignored due to errors

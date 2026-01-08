@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan  7 21:31:36 2026
+# Process ID         : 16496
+# Current directory  : F:/github_projects/New JICS/arquivos_teste
+# Command line       : xsim.exe -log xsim_run.log -mode tcl -source {xsim.dir/tb_sim/xsim_script.tcl}
+# Log file           : F:/github_projects/New JICS/arquivos_teste/xsim_run.log
+# Journal file       : F:/github_projects/New JICS/arquivos_teste\xsim.jou
+# Running On         : DESKTOP-8L9PMU5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 34299 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39399 MB
+# Available Virtual  : 20442 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_sim/xsim_script.tcl
+# xsim {tb_sim} -autoloadwcfg -tclbatch {run.tcl}
+Time resolution is 1 ps
+source run.tcl
+## run 2 us
+Note: t=1 uut=706 ref=706
+Time: 1 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=2 uut=1081 ref=1081
+Time: 2 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=3 uut=1012 ref=1012
+Time: 3 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=4 uut=469 ref=469
+Time: 4 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=5 uut=922 ref=922
+Time: 5 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=6 uut=776 ref=776
+Time: 6 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=7 uut=811 ref=811
+Time: 7 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=8 uut=923 ref=923
+Time: 8 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=9 uut=1046 ref=1046
+Time: 9 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=10 uut=708 ref=708
+Time: 10 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=11 uut=695 ref=695
+Time: 11 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=12 uut=919 ref=919
+Time: 12 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=13 uut=725 ref=725
+Time: 13 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=14 uut=512 ref=512
+Time: 14 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=15 uut=658 ref=658
+Time: 15 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=16 uut=779 ref=779
+Time: 16 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=17 uut=1123 ref=1123
+Time: 17 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=18 uut=1198 ref=1198
+Time: 18 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=19 uut=920 ref=920
+Time: 19 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=20 uut=999 ref=999
+Time: 20 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=21 uut=972 ref=972
+Time: 21 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=22 uut=1103 ref=1103
+Time: 22 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=23 uut=993 ref=993
+Time: 23 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=24 uut=842 ref=842
+Time: 24 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=25 uut=930 ref=930
+Time: 25 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=26 uut=740 ref=740
+Time: 26 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=27 uut=1068 ref=1068
+Time: 27 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=28 uut=1050 ref=1050
+Time: 28 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=29 uut=1255 ref=1255
+Time: 29 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=30 uut=670 ref=670
+Time: 30 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=31 uut=867 ref=867
+Time: 31 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=32 uut=913 ref=913
+Time: 32 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=33 uut=635 ref=635
+Time: 33 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=34 uut=893 ref=893
+Time: 34 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=35 uut=868 ref=868
+Time: 35 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=36 uut=998 ref=998
+Time: 36 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=37 uut=834 ref=834
+Time: 37 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=38 uut=1061 ref=1061
+Time: 38 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=39 uut=1209 ref=1209
+Time: 39 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=40 uut=806 ref=806
+Time: 40 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=41 uut=1010 ref=1010
+Time: 41 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=42 uut=439 ref=439
+Time: 42 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=43 uut=449 ref=449
+Time: 43 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=44 uut=1073 ref=1073
+Time: 44 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=45 uut=1172 ref=1172
+Time: 45 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=46 uut=862 ref=862
+Time: 46 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=47 uut=1027 ref=1027
+Time: 47 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=48 uut=788 ref=788
+Time: 48 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=49 uut=966 ref=966
+Time: 49 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: t=50 uut=709 ref=709
+Time: 50 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+Note: Todos os 200 vetores passaram.
+Time: 200 ns  Iteration: 0  Process: /tb_compressor_7x2_8b/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_compressor_7x2_8b.vhd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jan  7 21:31:38 2026...

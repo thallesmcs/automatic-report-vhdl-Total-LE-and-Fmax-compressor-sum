@@ -1,0 +1,1 @@
+"tb_compressor_7x2_8b" -debug "typical" -s "tb_sim" 

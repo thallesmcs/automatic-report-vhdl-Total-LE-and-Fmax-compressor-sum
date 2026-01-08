@@ -1,0 +1,6 @@
+cd arquivos_teste
+xvhdl ../sum_comum/sum_comum.vhd
+xvhdl -2008 ../Compressor32_8bits/compressor_Brent_Kung/compressor32_8b_Brent_Kung.vhd
+xvhdl ../gold_tb/tb_gold_generic.vhd
+xelab tb_gold_generic -debug typical -s tb_gold_generic_sim
+xsim tb_gold_generic_sim -tclbatch run_gold.tcl -log xsim_gold.log

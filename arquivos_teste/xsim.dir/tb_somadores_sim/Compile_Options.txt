@@ -1,0 +1,1 @@
+"tb_somadores" -debug "typical" -s "tb_somadores_sim" 

@@ -39,12 +39,12 @@ architecture rtl of brent_kung_adder8 is
     signal P : std_logic_vector(7 downto 0);
     signal G : std_logic_vector(7 downto 0);
 
-    -- Sinais intermediários para a árvore Brent–Kung
+    -- Sinais intermediï¿½rios para a ï¿½rvore Brentï¿½Kung
     signal G1, P1 : std_logic_vector(7 downto 0);
     signal G2, P2 : std_logic_vector(7 downto 0);
     signal G3, P3 : std_logic_vector(7 downto 0);
 
-    -- Carries finais de cada posição
+    -- Carries finais de cada posiï¿½ï¿½o
     signal C : std_logic_vector(8 downto 0);
 
 begin
@@ -58,7 +58,7 @@ begin
     C(0) <= Cin;
 
     --------------------------------------------------------------------
-    -- 2) Primeira camada (nível 1) — prefixos de 2 bits
+    -- 2) Primeira camada (nï¿½vel 1) ï¿½ prefixos de 2 bits
     --------------------------------------------------------------------
     G1(0) <= G(0);
     P1(0) <= P(0);
@@ -86,7 +86,7 @@ begin
 
 
     --------------------------------------------------------------------
-    -- 3) Segunda camada (nível 2) — prefixos de 4 bits
+    -- 3) Segunda camada (nï¿½vel 2) ï¿½ prefixos de 4 bits
     --------------------------------------------------------------------
     G2(0) <= G1(0);     P2(0) <= P1(0);
     G2(1) <= G1(1);     P2(1) <= P1(1);
@@ -108,7 +108,7 @@ begin
 
 
     --------------------------------------------------------------------
-    -- 4) Terceira camada (nível 3) — prefixos de 8 bits
+    -- 4) Terceira camada (nï¿½vel 3) ï¿½ prefixos de 8 bits
     --------------------------------------------------------------------
     G3(0) <= G2(0);     P3(0) <= P2(0);
     G3(1) <= G2(1);     P3(1) <= P2(1);
@@ -129,7 +129,7 @@ begin
 
 
     --------------------------------------------------------------------
-    -- 5) Distribuição das carries finais
+    -- 5) Distribuiï¿½ï¿½o das carries finais
     --    C(i) = G_prefix(i-1) OR (P_prefix(i-1) AND Cin)
     --------------------------------------------------------------------
     C(1) <= G3(0) or (P3(0) and Cin);
@@ -240,6 +240,7 @@ SIGNAL carry: STD_LOGIC_VECTOR(7 DOWNTO 0);
 SIGNAL sum: STD_LOGIC_VECTOR(7 DOWNTO 1);
 
 BEGIN
+
     
 -- Compressores 3:2 (CSA)
 estagio0: compressor32 PORT MAP(A(0),B(0),C(0),carry(0),S(0));

@@ -1,0 +1,132 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan  7 21:40:50 2026
+# Process ID         : 10788
+# Current directory  : F:/github_projects/New JICS/arquivos_teste
+# Command line       : xsim.exe -log xsim_somadores.log -mode tcl -source {xsim.dir/tb_somadores_sim/xsim_script.tcl}
+# Log file           : F:/github_projects/New JICS/arquivos_teste/xsim_somadores.log
+# Journal file       : F:/github_projects/New JICS/arquivos_teste\xsim.jou
+# Running On         : DESKTOP-8L9PMU5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 34299 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39399 MB
+# Available Virtual  : 20112 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_somadores_sim/xsim_script.tcl
+# xsim {tb_somadores_sim} -autoloadwcfg -tclbatch {run_somadores.tcl}
+Time resolution is 1 ps
+source run_somadores.tcl
+## run 2 us
+Note: t=1 A=0 B=14 UUT=14 REF=14
+Time: 1 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=2 A=14 B=9 UUT=23 REF=23
+Time: 2 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=3 A=0 B=3 UUT=3 REF=3
+Time: 3 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=4 A=1 B=6 UUT=7 REF=7
+Time: 4 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=5 A=8 B=13 UUT=21 REF=21
+Time: 5 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=6 A=11 B=8 UUT=19 REF=19
+Time: 6 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=7 A=5 B=13 UUT=18 REF=18
+Time: 7 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=8 A=13 B=3 UUT=16 REF=16
+Time: 8 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=9 A=3 B=11 UUT=14 REF=14
+Time: 9 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=10 A=4 B=12 UUT=16 REF=16
+Time: 10 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=11 A=13 B=0 UUT=13 REF=13
+Time: 11 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=12 A=0 B=8 UUT=8 REF=8
+Time: 12 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=13 A=10 B=3 UUT=13 REF=13
+Time: 13 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=14 A=4 B=1 UUT=5 REF=5
+Time: 14 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=15 A=12 B=12 UUT=24 REF=24
+Time: 15 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=16 A=0 B=13 UUT=13 REF=13
+Time: 16 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=17 A=7 B=0 UUT=7 REF=7
+Time: 17 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=18 A=11 B=14 UUT=25 REF=25
+Time: 18 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=19 A=3 B=12 UUT=15 REF=15
+Time: 19 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=20 A=0 B=4 UUT=4 REF=4
+Time: 20 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=21 A=10 B=3 UUT=13 REF=13
+Time: 21 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=22 A=4 B=1 UUT=5 REF=5
+Time: 22 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=23 A=12 B=11 UUT=23 REF=23
+Time: 23 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=24 A=5 B=8 UUT=13 REF=13
+Time: 24 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=25 A=7 B=6 UUT=13 REF=13
+Time: 25 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=26 A=13 B=8 UUT=21 REF=21
+Time: 26 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=27 A=10 B=6 UUT=16 REF=16
+Time: 27 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=28 A=10 B=1 UUT=11 REF=11
+Time: 28 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=29 A=4 B=10 UUT=14 REF=14
+Time: 29 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=30 A=15 B=13 UUT=28 REF=28
+Time: 30 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=31 A=3 B=2 UUT=5 REF=5
+Time: 31 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=32 A=14 B=1 UUT=15 REF=15
+Time: 32 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=33 A=15 B=4 UUT=19 REF=19
+Time: 33 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=34 A=6 B=0 UUT=6 REF=6
+Time: 34 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=35 A=6 B=9 UUT=15 REF=15
+Time: 35 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=36 A=1 B=4 UUT=5 REF=5
+Time: 36 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=37 A=4 B=8 UUT=12 REF=12
+Time: 37 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=38 A=13 B=0 UUT=13 REF=13
+Time: 38 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=39 A=11 B=8 UUT=19 REF=19
+Time: 39 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=40 A=4 B=5 UUT=9 REF=9
+Time: 40 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=41 A=8 B=10 UUT=18 REF=18
+Time: 41 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=42 A=4 B=15 UUT=19 REF=19
+Time: 42 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=43 A=13 B=6 UUT=19 REF=19
+Time: 43 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=44 A=1 B=1 UUT=2 REF=2
+Time: 44 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=45 A=0 B=10 UUT=10 REF=10
+Time: 45 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=46 A=11 B=1 UUT=12 REF=12
+Time: 46 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=47 A=5 B=2 UUT=7 REF=7
+Time: 47 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=48 A=7 B=4 UUT=11 REF=11
+Time: 48 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=49 A=6 B=4 UUT=10 REF=10
+Time: 49 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=50 A=5 B=15 UUT=20 REF=20
+Time: 50 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: Todos os 200 vetores passaram.
+Time: 200 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jan  7 21:40:52 2026...

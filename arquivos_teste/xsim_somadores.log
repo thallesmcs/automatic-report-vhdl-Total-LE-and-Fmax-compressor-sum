@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# xsim v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan  7 21:44:39 2026
+# Process ID         : 18168
+# Current directory  : F:/github_projects/New JICS/arquivos_teste
+# Command line       : xsim.exe -log xsim_somadores.log -mode tcl -source {xsim.dir/tb_somadores_sim/xsim_script.tcl}
+# Log file           : F:/github_projects/New JICS/arquivos_teste/xsim_somadores.log
+# Journal file       : F:/github_projects/New JICS/arquivos_teste\xsim.jou
+# Running On         : DESKTOP-8L9PMU5
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz
+# CPU Frequency      : 3000 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 8
+# Host memory        : 34299 MB
+# Swap memory        : 5100 MB
+# Total Virtual      : 39399 MB
+# Available Virtual  : 20248 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_somadores_sim/xsim_script.tcl
+# xsim {tb_somadores_sim} -autoloadwcfg -tclbatch {run_somadores.tcl}
+Time resolution is 1 ps
+source run_somadores.tcl
+## run 2 us
+Note: t=1 A=0 B=0 UUT=0 REF=0 EXPECT=0
+Time: 1 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=2 A=1 B=2 UUT=3 REF=3 EXPECT=3
+Time: 2 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=3 A=3 B=4 UUT=7 REF=7 EXPECT=7
+Time: 3 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=4 A=7 B=8 UUT=15 REF=15 EXPECT=15
+Time: 4 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=5 A=5 B=10 UUT=15 REF=15 EXPECT=15
+Time: 5 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=6 A=9 B=6 UUT=15 REF=15 EXPECT=15
+Time: 6 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=7 A=15 B=15 UUT=30 REF=30 EXPECT=30
+Time: 7 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=8 A=14 B=1 UUT=15 REF=15 EXPECT=15
+Time: 8 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=9 A=8 B=7 UUT=15 REF=15 EXPECT=15
+Time: 9 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=10 A=12 B=3 UUT=15 REF=15 EXPECT=15
+Time: 10 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=11 A=10 B=5 UUT=15 REF=15 EXPECT=15
+Time: 11 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=12 A=4 B=9 UUT=13 REF=13 EXPECT=13
+Time: 12 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=13 A=2 B=13 UUT=15 REF=15 EXPECT=15
+Time: 13 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=14 A=6 B=6 UUT=12 REF=12 EXPECT=12
+Time: 14 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=15 A=11 B=4 UUT=15 REF=15 EXPECT=15
+Time: 15 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=16 A=13 B=2 UUT=15 REF=15 EXPECT=15
+Time: 16 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=17 A=1 B=14 UUT=15 REF=15 EXPECT=15
+Time: 17 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=18 A=0 B=15 UUT=15 REF=15 EXPECT=15
+Time: 18 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=19 A=15 B=0 UUT=15 REF=15 EXPECT=15
+Time: 19 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: t=20 A=9 B=9 UUT=18 REF=18 EXPECT=18
+Time: 20 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+Note: Todos os vetores do arquivo foram testados.
+Time: 20 ns  Iteration: 0  Process: /tb_somadores/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_somadores.vhd
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Jan  7 21:44:41 2026...

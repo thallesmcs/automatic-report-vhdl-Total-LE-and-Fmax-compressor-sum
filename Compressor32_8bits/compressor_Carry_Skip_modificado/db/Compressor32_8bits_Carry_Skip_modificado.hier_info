@@ -33,16 +33,16 @@ c[4] => FF_D8:ff_c.d[4]
 c[5] => FF_D8:ff_c.d[5]
 c[6] => FF_D8:ff_c.d[6]
 c[7] => FF_D8:ff_c.d[7]
-soma[0] <= FF_D8:ff_soma.q[0]
-soma[1] <= FF_D8:ff_soma.q[1]
-soma[2] <= FF_D8:ff_soma.q[2]
-soma[3] <= FF_D8:ff_soma.q[3]
-soma[4] <= FF_D8:ff_soma.q[4]
-soma[5] <= FF_D8:ff_soma.q[5]
-soma[6] <= FF_D8:ff_soma.q[6]
-soma[7] <= FF_D8:ff_soma.q[7]
-c_out[0] <= FF_D2:ff_c_out.q[0]
-c_out[1] <= FF_D2:ff_c_out.q[1]
+soma[0] << FF_D8:ff_soma.q[0]
+soma[1] << FF_D8:ff_soma.q[1]
+soma[2] << FF_D8:ff_soma.q[2]
+soma[3] << FF_D8:ff_soma.q[3]
+soma[4] << FF_D8:ff_soma.q[4]
+soma[5] << FF_D8:ff_soma.q[5]
+soma[6] << FF_D8:ff_soma.q[6]
+soma[7] << FF_D8:ff_soma.q[7]
+c_out[0] << FF_D2:ff_c_out.q[0]
+c_out[1] << FF_D2:ff_c_out.q[1]
 
 
 |top_level_compressor_32_8b|FF_D8:ff_a
@@ -354,21 +354,21 @@ Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level_compressor_32_8b|compressor32_8b_Carry_Skip_modificado:u_compressor|carry_skip_8bit:var0|ripple4:LSB
-A[0] => p[0].IN0
+A[0] => p.IN0
 A[0] => full_adder:FA0.A
-A[1] => p[1].IN0
+A[1] => p.IN0
 A[1] => full_adder:FA1.A
-A[2] => p[2].IN0
+A[2] => p.IN0
 A[2] => full_adder:FA2.A
-A[3] => p[3].IN0
+A[3] => p.IN0
 A[3] => full_adder:FA3.A
-B[0] => p[0].IN1
+B[0] => p.IN1
 B[0] => full_adder:FA0.B
-B[1] => p[1].IN1
+B[1] => p.IN1
 B[1] => full_adder:FA1.B
-B[2] => p[2].IN1
+B[2] => p.IN1
 B[2] => full_adder:FA2.B
-B[3] => p[3].IN1
+B[3] => p.IN1
 B[3] => full_adder:FA3.B
 Cin => full_adder:FA0.Cin
 Sum[0] <= full_adder:FA0.Sum
@@ -376,7 +376,10 @@ Sum[1] <= full_adder:FA1.Sum
 Sum[2] <= full_adder:FA2.Sum
 Sum[3] <= full_adder:FA3.Sum
 Cout <= full_adder:FA3.Cout
-Pgroup <= Pgroup.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[0] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[1] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[2] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[3] <= p.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level_compressor_32_8b|compressor32_8b_Carry_Skip_modificado:u_compressor|carry_skip_8bit:var0|ripple4:LSB|full_adder:FA0
@@ -424,21 +427,21 @@ Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level_compressor_32_8b|compressor32_8b_Carry_Skip_modificado:u_compressor|carry_skip_8bit:var0|ripple4:MSB
-A[0] => p[0].IN0
+A[0] => p.IN0
 A[0] => full_adder:FA0.A
-A[1] => p[1].IN0
+A[1] => p.IN0
 A[1] => full_adder:FA1.A
-A[2] => p[2].IN0
+A[2] => p.IN0
 A[2] => full_adder:FA2.A
-A[3] => p[3].IN0
+A[3] => p.IN0
 A[3] => full_adder:FA3.A
-B[0] => p[0].IN1
+B[0] => p.IN1
 B[0] => full_adder:FA0.B
-B[1] => p[1].IN1
+B[1] => p.IN1
 B[1] => full_adder:FA1.B
-B[2] => p[2].IN1
+B[2] => p.IN1
 B[2] => full_adder:FA2.B
-B[3] => p[3].IN1
+B[3] => p.IN1
 B[3] => full_adder:FA3.B
 Cin => full_adder:FA0.Cin
 Sum[0] <= full_adder:FA0.Sum
@@ -446,7 +449,10 @@ Sum[1] <= full_adder:FA1.Sum
 Sum[2] <= full_adder:FA2.Sum
 Sum[3] <= full_adder:FA3.Sum
 Cout <= full_adder:FA3.Cout
-Pgroup <= Pgroup.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[0] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[1] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[2] <= p.DB_MAX_OUTPUT_PORT_TYPE
+Pgroup[3] <= p.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |top_level_compressor_32_8b|compressor32_8b_Carry_Skip_modificado:u_compressor|carry_skip_8bit:var0|ripple4:MSB|full_adder:FA0

@@ -1,0 +1,29 @@
+Vivado Simulator v2025.1.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Xilinx/2025.1/Vivado/bin/unwrapped/win64.o/xelab.exe tb_gold_generic -debug typical -s tb_gold_generic_sim 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package work.my_components2
+Compiling package work.my_components
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package work.my_components1
+Compiling architecture comportamento of entity work.mux_1bit [mux_1bit_default]
+Compiling architecture comportamento of entity work.compressor32 [compressor32_default]
+Compiling architecture rtl of entity work.full_adder [full_adder_default]
+Compiling architecture rtl of entity work.ripple4 [ripple4_default]
+Compiling architecture rtl of entity work.carry_skip_8bit [carry_skip_8bit_default]
+Compiling architecture comportamento of entity work.compressor32_8b_Carry_Skip [compressor32_8b_carry_skip_defau...]
+Compiling architecture rtl of entity work.sum_comum [\sum_comum(n_inputs=3,sum_width=...]
+Compiling architecture tb of entity work.tb_gold_generic
+Built simulation snapshot tb_gold_generic_sim

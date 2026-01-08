@@ -1,0 +1,1 @@
+"tb_gold_generic" -debug "typical" -s "tb_gold_generic_sim" 
