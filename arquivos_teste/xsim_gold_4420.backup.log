@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Fri Jan  9 18:22:12 2026
-# Process ID         : 15584
+# Start of session at: Fri Jan  9 18:21:29 2026
+# Process ID         : 4420
 # Current directory  : F:/github_projects/New JICS/arquivos_teste
 # Command line       : xsim.exe -log xsim_gold.log -mode tcl -source {xsim.dir/tb_gold_generic_sim/xsim_script.tcl}
 # Log file           : F:/github_projects/New JICS/arquivos_teste/xsim_gold.log
@@ -19,136 +19,136 @@
 # Host memory        : 34299 MB
 # Swap memory        : 5100 MB
 # Total Virtual      : 39399 MB
-# Available Virtual  : 22395 MB
+# Available Virtual  : 22434 MB
 #-----------------------------------------------------------
 source xsim.dir/tb_gold_generic_sim/xsim_script.tcl
 # xsim {tb_gold_generic_sim} -autoloadwcfg -tclbatch {run_gold.tcl}
 Time resolution is 1 ps
 source run_gold.tcl
 ## run 2 us
-Note: t=1 ops=0 0 0 0 0 UUT=458752 REF=0 EXPECT=0
+Note: t=1 ops=0 0 0 0 0 UUT=32768 REF=0 EXPECT=0
 Time: 1 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 1 esperado=0 obtido=458752
+Error: Mismatch (arquivo) teste 1 esperado=0 obtido=32768
 Time: 1 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 1 esperado=0 obtido=458752
+Error: Mismatch (golden) teste 1 esperado=0 obtido=32768
 Time: 1 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=2 ops=1 2 3 4 5 UUT=458767 REF=15 EXPECT=15
+Note: t=2 ops=1 2 3 4 5 UUT=32782 REF=15 EXPECT=15
 Time: 2 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 2 esperado=15 obtido=458767
+Error: Mismatch (arquivo) teste 2 esperado=15 obtido=32782
 Time: 2 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 2 esperado=15 obtido=458767
+Error: Mismatch (golden) teste 2 esperado=15 obtido=32782
 Time: 2 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=3 ops=4 5 6 7 8 UUT=458782 REF=30 EXPECT=30
+Note: t=3 ops=4 5 6 7 8 UUT=32798 REF=30 EXPECT=30
 Time: 3 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 3 esperado=30 obtido=458782
+Error: Mismatch (arquivo) teste 3 esperado=30 obtido=32798
 Time: 3 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 3 esperado=30 obtido=458782
+Error: Mismatch (golden) teste 3 esperado=30 obtido=32798
 Time: 3 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=4 ops=7 8 9 10 11 UUT=458797 REF=45 EXPECT=45
+Note: t=4 ops=7 8 9 10 11 UUT=32812 REF=45 EXPECT=45
 Time: 4 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 4 esperado=45 obtido=458797
+Error: Mismatch (arquivo) teste 4 esperado=45 obtido=32812
 Time: 4 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 4 esperado=45 obtido=458797
+Error: Mismatch (golden) teste 4 esperado=45 obtido=32812
 Time: 4 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=5 ops=10 11 12 13 14 UUT=458812 REF=60 EXPECT=60
+Note: t=5 ops=10 11 12 13 14 UUT=32828 REF=60 EXPECT=60
 Time: 5 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 5 esperado=60 obtido=458812
+Error: Mismatch (arquivo) teste 5 esperado=60 obtido=32828
 Time: 5 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 5 esperado=60 obtido=458812
+Error: Mismatch (golden) teste 5 esperado=60 obtido=32828
 Time: 5 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=6 ops=2 4 6 8 10 UUT=458782 REF=30 EXPECT=30
+Note: t=6 ops=2 4 6 8 10 UUT=32798 REF=30 EXPECT=30
 Time: 6 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 6 esperado=30 obtido=458782
+Error: Mismatch (arquivo) teste 6 esperado=30 obtido=32798
 Time: 6 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 6 esperado=30 obtido=458782
+Error: Mismatch (golden) teste 6 esperado=30 obtido=32798
 Time: 6 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=7 ops=1 1 1 1 1 UUT=458757 REF=5 EXPECT=5
+Note: t=7 ops=1 1 1 1 1 UUT=32772 REF=5 EXPECT=5
 Time: 7 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 7 esperado=5 obtido=458757
+Error: Mismatch (arquivo) teste 7 esperado=5 obtido=32772
 Time: 7 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 7 esperado=5 obtido=458757
+Error: Mismatch (golden) teste 7 esperado=5 obtido=32772
 Time: 7 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=8 ops=15 15 15 15 15 UUT=458827 REF=75 EXPECT=75
+Note: t=8 ops=15 15 15 15 15 UUT=32842 REF=75 EXPECT=75
 Time: 8 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 8 esperado=75 obtido=458827
+Error: Mismatch (arquivo) teste 8 esperado=75 obtido=32842
 Time: 8 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 8 esperado=75 obtido=458827
+Error: Mismatch (golden) teste 8 esperado=75 obtido=32842
 Time: 8 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=9 ops=3 6 9 12 15 UUT=458797 REF=45 EXPECT=45
+Note: t=9 ops=3 6 9 12 15 UUT=32812 REF=45 EXPECT=45
 Time: 9 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 9 esperado=45 obtido=458797
+Error: Mismatch (arquivo) teste 9 esperado=45 obtido=32812
 Time: 9 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 9 esperado=45 obtido=458797
+Error: Mismatch (golden) teste 9 esperado=45 obtido=32812
 Time: 9 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=10 ops=14 2 1 0 3 UUT=458772 REF=20 EXPECT=20
+Note: t=10 ops=14 2 1 0 3 UUT=32788 REF=20 EXPECT=20
 Time: 10 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 10 esperado=20 obtido=458772
+Error: Mismatch (arquivo) teste 10 esperado=20 obtido=32788
 Time: 10 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 10 esperado=20 obtido=458772
+Error: Mismatch (golden) teste 10 esperado=20 obtido=32788
 Time: 10 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=11 ops=6 4 8 2 1 UUT=458773 REF=21 EXPECT=21
+Note: t=11 ops=6 4 8 2 1 UUT=32789 REF=21 EXPECT=21
 Time: 11 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 11 esperado=21 obtido=458773
+Error: Mismatch (arquivo) teste 11 esperado=21 obtido=32789
 Time: 11 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 11 esperado=21 obtido=458773
+Error: Mismatch (golden) teste 11 esperado=21 obtido=32789
 Time: 11 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=12 ops=11 11 11 11 11 UUT=458807 REF=55 EXPECT=55
+Note: t=12 ops=11 11 11 11 11 UUT=32822 REF=55 EXPECT=55
 Time: 12 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 12 esperado=55 obtido=458807
+Error: Mismatch (arquivo) teste 12 esperado=55 obtido=32822
 Time: 12 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 12 esperado=55 obtido=458807
+Error: Mismatch (golden) teste 12 esperado=55 obtido=32822
 Time: 12 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=13 ops=10 0 5 0 5 UUT=458772 REF=20 EXPECT=20
+Note: t=13 ops=10 0 5 0 5 UUT=32788 REF=20 EXPECT=20
 Time: 13 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 13 esperado=20 obtido=458772
+Error: Mismatch (arquivo) teste 13 esperado=20 obtido=32788
 Time: 13 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 13 esperado=20 obtido=458772
+Error: Mismatch (golden) teste 13 esperado=20 obtido=32788
 Time: 13 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=14 ops=1 1 2 3 5 UUT=458764 REF=12 EXPECT=12
+Note: t=14 ops=1 1 2 3 5 UUT=32779 REF=12 EXPECT=12
 Time: 14 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 14 esperado=12 obtido=458764
+Error: Mismatch (arquivo) teste 14 esperado=12 obtido=32779
 Time: 14 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 14 esperado=12 obtido=458764
+Error: Mismatch (golden) teste 14 esperado=12 obtido=32779
 Time: 14 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=15 ops=2 8 14 1 0 UUT=458777 REF=25 EXPECT=25
+Note: t=15 ops=2 8 14 1 0 UUT=32793 REF=25 EXPECT=25
 Time: 15 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 15 esperado=25 obtido=458777
+Error: Mismatch (arquivo) teste 15 esperado=25 obtido=32793
 Time: 15 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 15 esperado=25 obtido=458777
+Error: Mismatch (golden) teste 15 esperado=25 obtido=32793
 Time: 15 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=16 ops=7 3 2 4 6 UUT=458774 REF=22 EXPECT=22
+Note: t=16 ops=7 3 2 4 6 UUT=32789 REF=22 EXPECT=22
 Time: 16 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 16 esperado=22 obtido=458774
+Error: Mismatch (arquivo) teste 16 esperado=22 obtido=32789
 Time: 16 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 16 esperado=22 obtido=458774
+Error: Mismatch (golden) teste 16 esperado=22 obtido=32789
 Time: 16 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=17 ops=5 5 5 5 5 UUT=458777 REF=25 EXPECT=25
+Note: t=17 ops=5 5 5 5 5 UUT=32792 REF=25 EXPECT=25
 Time: 17 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 17 esperado=25 obtido=458777
+Error: Mismatch (arquivo) teste 17 esperado=25 obtido=32792
 Time: 17 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 17 esperado=25 obtido=458777
+Error: Mismatch (golden) teste 17 esperado=25 obtido=32792
 Time: 17 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=18 ops=9 1 7 2 3 UUT=458774 REF=22 EXPECT=22
+Note: t=18 ops=9 1 7 2 3 UUT=32789 REF=22 EXPECT=22
 Time: 18 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 18 esperado=22 obtido=458774
+Error: Mismatch (arquivo) teste 18 esperado=22 obtido=32789
 Time: 18 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 18 esperado=22 obtido=458774
+Error: Mismatch (golden) teste 18 esperado=22 obtido=32789
 Time: 18 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=19 ops=8 8 8 8 8 UUT=458792 REF=40 EXPECT=40
+Note: t=19 ops=8 8 8 8 8 UUT=32808 REF=40 EXPECT=40
 Time: 19 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 19 esperado=40 obtido=458792
+Error: Mismatch (arquivo) teste 19 esperado=40 obtido=32808
 Time: 19 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 19 esperado=40 obtido=458792
+Error: Mismatch (golden) teste 19 esperado=40 obtido=32808
 Time: 19 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=20 ops=12 3 0 5 1 UUT=458773 REF=21 EXPECT=21
+Note: t=20 ops=12 3 0 5 1 UUT=32789 REF=21 EXPECT=21
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (arquivo) teste 20 esperado=21 obtido=458773
+Error: Mismatch (arquivo) teste 20 esperado=21 obtido=32789
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Error: Mismatch (golden) teste 20 esperado=21 obtido=458773
+Error: Mismatch (golden) teste 20 esperado=21 obtido=32789
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 Note: Todos os vetores do arquivo foram testados.
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 Warning: TESTE CONCLUIDO: ERROS DETECTADOS.
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 ## quit
-INFO: [Common 17-206] Exiting xsim at Fri Jan  9 18:22:14 2026...
+INFO: [Common 17-206] Exiting xsim at Fri Jan  9 18:21:31 2026...

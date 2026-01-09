@@ -3,8 +3,8 @@
 # SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
 # IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
 # SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
-# Start of session at: Wed Jan  7 22:29:28 2026
-# Process ID         : 8604
+# Start of session at: Fri Jan  9 18:19:00 2026
+# Process ID         : 9652
 # Current directory  : F:/github_projects/New JICS/arquivos_teste
 # Command line       : xsim.exe -log xsim_gold.log -mode tcl -source {xsim.dir/tb_gold_generic_sim/xsim_script.tcl}
 # Log file           : F:/github_projects/New JICS/arquivos_teste/xsim_gold.log
@@ -19,56 +19,56 @@
 # Host memory        : 34299 MB
 # Swap memory        : 5100 MB
 # Total Virtual      : 39399 MB
-# Available Virtual  : 19967 MB
+# Available Virtual  : 22350 MB
 #-----------------------------------------------------------
 source xsim.dir/tb_gold_generic_sim/xsim_script.tcl
 # xsim {tb_gold_generic_sim} -autoloadwcfg -tclbatch {run_gold.tcl}
 Time resolution is 1 ps
 source run_gold.tcl
 ## run 2 us
-Note: t=1 ops=0 0 0 UUT=0 REF=0 EXPECT=0
+Note: t=1 ops=0 0 0 0 0 0 0 UUT=0 REF=0 EXPECT=0
 Time: 1 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=2 ops=1 2 3 UUT=6 REF=6 EXPECT=6
+Note: t=2 ops=1 2 3 4 5 6 7 UUT=28 REF=28 EXPECT=28
 Time: 2 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=3 ops=4 5 6 UUT=15 REF=15 EXPECT=15
+Note: t=3 ops=4 5 6 7 8 9 10 UUT=49 REF=49 EXPECT=49
 Time: 3 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=4 ops=7 8 9 UUT=24 REF=24 EXPECT=24
+Note: t=4 ops=7 8 9 10 11 12 13 UUT=70 REF=70 EXPECT=70
 Time: 4 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=5 ops=10 11 12 UUT=33 REF=33 EXPECT=33
+Note: t=5 ops=10 11 12 13 14 15 16 UUT=91 REF=91 EXPECT=91
 Time: 5 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=6 ops=13 14 15 UUT=42 REF=42 EXPECT=42
+Note: t=6 ops=2 4 6 8 10 12 14 UUT=56 REF=56 EXPECT=56
 Time: 6 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=7 ops=2 4 6 UUT=12 REF=12 EXPECT=12
+Note: t=7 ops=1 1 1 1 1 1 1 UUT=7 REF=7 EXPECT=7
 Time: 7 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=8 ops=8 1 5 UUT=14 REF=14 EXPECT=14
+Note: t=8 ops=15 15 15 15 15 15 15 UUT=105 REF=105 EXPECT=105
 Time: 8 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=9 ops=9 7 3 UUT=19 REF=19 EXPECT=19
+Note: t=9 ops=3 6 9 12 15 0 1 UUT=46 REF=46 EXPECT=46
 Time: 9 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=10 ops=12 0 1 UUT=13 REF=13 EXPECT=13
+Note: t=10 ops=14 2 1 0 3 5 7 UUT=32 REF=32 EXPECT=32
 Time: 10 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=11 ops=5 5 5 UUT=15 REF=15 EXPECT=15
+Note: t=11 ops=6 4 8 2 1 3 5 UUT=29 REF=29 EXPECT=29
 Time: 11 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=12 ops=15 15 15 UUT=45 REF=45 EXPECT=45
+Note: t=12 ops=11 11 11 11 11 11 11 UUT=77 REF=77 EXPECT=77
 Time: 12 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=13 ops=3 6 9 UUT=18 REF=18 EXPECT=18
+Note: t=13 ops=10 0 5 0 5 10 0 UUT=30 REF=30 EXPECT=30
 Time: 13 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=14 ops=14 2 1 UUT=17 REF=17 EXPECT=17
+Note: t=14 ops=1 1 2 3 5 8 13 UUT=33 REF=33 EXPECT=33
 Time: 14 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=15 ops=6 4 8 UUT=18 REF=18 EXPECT=18
+Note: t=15 ops=2 8 14 1 0 2 4 UUT=31 REF=31 EXPECT=31
 Time: 15 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=16 ops=11 11 11 UUT=33 REF=33 EXPECT=33
+Note: t=16 ops=7 3 2 4 6 8 10 UUT=40 REF=40 EXPECT=40
 Time: 16 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=17 ops=10 0 5 UUT=15 REF=15 EXPECT=15
+Note: t=17 ops=5 5 5 5 5 5 5 UUT=35 REF=35 EXPECT=35
 Time: 17 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=18 ops=1 1 1 UUT=3 REF=3 EXPECT=3
+Note: t=18 ops=9 1 7 2 3 4 5 UUT=31 REF=31 EXPECT=31
 Time: 18 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=19 ops=2 8 14 UUT=24 REF=24 EXPECT=24
+Note: t=19 ops=8 8 8 8 8 8 8 UUT=56 REF=56 EXPECT=56
 Time: 19 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
-Note: t=20 ops=7 3 2 UUT=12 REF=12 EXPECT=12
+Note: t=20 ops=12 3 0 5 1 9 4 UUT=34 REF=34 EXPECT=34
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 Note: Todos os vetores do arquivo foram testados.
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 Note: TESTE CONCLUIDO: SEM ERROS.
 Time: 20 ns  Iteration: 0  Process: /tb_gold_generic/stimulus  File: F:/github_projects/New JICS/gold_tb/tb_gold_generic.vhd
 ## quit
-INFO: [Common 17-206] Exiting xsim at Wed Jan  7 22:29:30 2026...
+INFO: [Common 17-206] Exiting xsim at Fri Jan  9 18:19:02 2026...

@@ -16,12 +16,12 @@ architecture tb of tb_gold_generic is
   --   N_INPUTS:  3,4,5,7,8
   --   SUM_WIDTH: bits suficientes (ex.: 3*255=765 ->10; 8*65535~524280 ->20)
   --   GOLD_FILE_PATH: aponte para o arquivo correspondente (gold_vectors_X.txt)
-  constant WIDTH        : natural := 8;   -- 8 ou 16
-  constant N_INPUTS     : natural := 3;   -- 3,4,5,7,8
-  constant SUM_WIDTH    : natural := 10;  -- 3*255 = 765 (10 bits)
+  constant WIDTH        : natural := 16;   -- 8 ou 16
+  constant N_INPUTS     : natural := 5;   -- 3,4,5,7,8
+  constant SUM_WIDTH    : natural := 19;  -- 3*255 = 765 (10 bits)
   constant PRINT_FIRST  : natural := 50;
   constant USE_GOLD_FILE: boolean := true;
-  constant GOLD_FILE_PATH: string := "../gold_tb/gold_vectors_3.txt";
+  constant GOLD_FILE_PATH: string := "../gold_tb/gold_vectors_5.txt";
 
   constant MAX_INPUTS   : natural := 8;
   type vec_array_t is array (natural range <>) of std_logic_vector(WIDTH - 1 downto 0);
@@ -30,6 +30,8 @@ architecture tb of tb_gold_generic is
   signal in_arr     : vec_array_t(0 to MAX_INPUTS - 1);
   signal din_flat   : std_logic_vector(N_INPUTS * WIDTH - 1 downto 0);
   signal uut_sum    : std_logic_vector(SUM_WIDTH - 1 downto 0);
+  signal uut_sum_lo : std_logic_vector(15 downto 0);
+  signal uut_carry  : std_logic_vector(2 downto 0);
   signal golden_sum : std_logic_vector(SUM_WIDTH - 1 downto 0);
 
   -- Sinais nomeados para facilitar port map de ate 8 entradas.
@@ -53,13 +55,19 @@ begin
   --------------------------------------------------------------------
   -- UUT: compressor 3->2 de 8 bits (Brent-Kung). Ajuste caso mude de DUT.
   --------------------------------------------------------------------
-  uut: entity work.compressor32_8b_Carry_Skip_modificado
+  uut: entity work.somador16bits
     port map (
       A => a,
       B => b,
       C => c,
-      S => uut_sum
+      D => d,
+      E => e,
+      ap_return => uut_sum_lo,
+      c_out => uut_carry,
+      ap_rst => '0'
     );
+
+  uut_sum <= uut_carry & uut_sum_lo;
 
   -- Golden de referencia.
   golden: entity work.sum_comum

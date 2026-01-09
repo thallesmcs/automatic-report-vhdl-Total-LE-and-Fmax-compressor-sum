@@ -89,23 +89,23 @@ end ladner_fischer_15;
 
 architecture rtl of ladner_fischer_15 is
 
-    -- nível 0: sinais propagate e generate
+    -- nï¿½vel 0: sinais propagate e generate
     signal P0 : std_logic_vector(14 downto 0);
     signal G0 : std_logic_vector(14 downto 0);
 
-    -- nível 1 (distância = 1)
+    -- nï¿½vel 1 (distï¿½ncia = 1)
     signal P1 : std_logic_vector(14 downto 0);
     signal G1 : std_logic_vector(14 downto 0);
 
-    -- nível 2 (distância = 2) 
+    -- nï¿½vel 2 (distï¿½ncia = 2) 
     signal P2 : std_logic_vector(14 downto 0);
     signal G2 : std_logic_vector(14 downto 0);
 
-    -- nível 3 (distância = 4)
+    -- nï¿½vel 3 (distï¿½ncia = 4)
     signal P3 : std_logic_vector(14 downto 0);
     signal G3 : std_logic_vector(14 downto 0);
 
-    -- nível 4 (distância = 8)
+    -- nï¿½vel 4 (distï¿½ncia = 8)
     signal P4 : std_logic_vector(14 downto 0);
     signal G4 : std_logic_vector(14 downto 0);
 
@@ -119,7 +119,7 @@ architecture rtl of ladner_fischer_15 is
 begin
 
     ----------------------------------------------------------------
-    -- nível 0: propagate / generate
+    -- nï¿½vel 0: propagate / generate
     ----------------------------------------------------------------
     P0 <= A xor B;
     G0 <= A and B;
@@ -127,7 +127,7 @@ begin
     C(0) <= Cin;
 
     ----------------------------------------------------------------
-    -- nível 1 
+    -- nï¿½vel 1 
     ----------------------------------------------------------------
     P1(0)  <= P0(0);            G1(0)  <= G0(0);
     P1(1)  <= P0(1) and P0(0);  G1(1)  <= G0(1) or (P0(1) and G0(0));
@@ -153,7 +153,7 @@ begin
     P1(14) <= P0(14);           G1(14) <= G0(14);
 
     ----------------------------------------------------------------
-    -- nível 2 (distância = 2)
+    -- nï¿½vel 2 (distï¿½ncia = 2)
     ----------------------------------------------------------------
     
     P2(0)  <= P1(0);  G2(0)  <= G1(0);
@@ -181,7 +181,7 @@ begin
     P2(14) <= P1(14);  G2(14) <= G1(14);
 
     ----------------------------------------------------------------
-    -- nível 3 (distância = 4)
+    -- nï¿½vel 3 (distï¿½ncia = 4)
     ----------------------------------------------------------------
     
     P3(0) <= P2(0);  G3(0) <= G2(0);
@@ -206,7 +206,7 @@ begin
     P3(14) <= P2(14) and P2(13); G3(14) <= G2(14) or (P2(14) and G2(13));
 
     ----------------------------------------------------------------
-    -- nível 4 (distância = 8)
+    -- nï¿½vel 4 (distï¿½ncia = 8)
     ----------------------------------------------------------------
     
     P4(0) <= P3(0);  G4(0) <= G3(0);
@@ -277,7 +277,7 @@ begin
     C(15) <= PrefG(14) or (PrefP(14) and Cin);
 
     ----------------------------------------------------------------
-    -- Somatório final
+    -- Somatï¿½rio final
     ----------------------------------------------------------------
     SUM(0)  <= P0(0)  xor C(0);
     SUM(1)  <= P0(1)  xor C(1);
